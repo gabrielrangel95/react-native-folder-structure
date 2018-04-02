@@ -36,7 +36,7 @@ Each index.js file should export everything inside the respective folder.
 If the folder contains an Component, The component should be export inside "{ }"
 Example:
 
-MyComponent.js 
+<strong>MyComponent.js</strong>
 ```
 import React, {Component } from 'react'
 import styles from './MyComponent'
@@ -53,12 +53,12 @@ class MyComponent extends Component{
 export { MyComponent };
 
 ```
-index.js
+<strong>index.js</strong>
 ```
 export * from './MyComponent/MyComponent'
 ```
 
-importing: 
+<strong>importing:</strong> 
 ```
 import { MyComponent } from '../../components'
 ```
