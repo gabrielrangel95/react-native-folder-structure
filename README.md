@@ -31,34 +31,3 @@ MyProject
 ├── package-lock.json
 ```
 
-## Imports/Exports
-Each index.js file should export everything inside the respective folder.
-If the folder contains an Component, The component should be export inside "{ }"
-Example:
-
-<strong>MyComponent.js</strong>
-```
-import React, {Component } from 'react'
-import styles from './MyComponent'
-
-class MyComponent extends Component{
-
-  render(){
-    return(
-      
-    )
-  }
-}
-
-export { MyComponent };
-
-```
-<strong>index.js</strong>
-```
-export * from './MyComponent/MyComponent'
-```
-
-<strong>importing:</strong> 
-```
-import { MyComponent } from '../../components'
-```
