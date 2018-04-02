@@ -1,4 +1,5 @@
 # react-native-folder-structure
+## General Structure
 ```
 MyProject
 ├── __tests__
@@ -28,4 +29,36 @@ MyProject
 ├── index.js
 ├── package.json
 ├── package-lock.json
+```
+
+## Imports/Exports
+Each index.js file should export everything inside the respective folder.
+If the folder contains an Component, The component should be export inside "{ }"
+Example:
+
+MyComponent.js 
+```
+import React, {Component } from 'react'
+import styles from './MyComponent'
+
+class MyComponent extends Component{
+
+  render(){
+    return(
+      
+    )
+  }
+}
+
+export { MyComponent };
+
+```
+index.js
+```
+export * from './MyComponent/MyComponent'
+```
+
+importing: 
+```
+import { MyComponent } from '../../components'
 ```
