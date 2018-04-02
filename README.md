@@ -1,5 +1,4 @@
-# react-native-folder-structure
-## General Structure
+## General Structure of the project
 ```
 MyProject
 ├── __tests__
@@ -21,6 +20,9 @@ MyProject
 │   │    └── store
 │   │           └── index.js
 │   ├── resources
+│   │    └── img
+│   │    └── fonts
+│   │    └── colors
 │   ├── screens
 │   │      └── index.js
 │   ├── RootNavigator.js
@@ -30,4 +32,3 @@ MyProject
 ├── package.json
 ├── package-lock.json
 ```
-
