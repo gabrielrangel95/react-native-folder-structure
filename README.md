@@ -32,3 +32,5 @@ MyProject
 ├── package.json
 ├── package-lock.json
 ```
+
+<strong>More details on: <a href="https://github.com/gabrielrangel95/react-native-folder-structure/wiki"> Wiki </a></strong>
