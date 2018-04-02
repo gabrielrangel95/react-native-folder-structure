@@ -24,6 +24,9 @@ MyProject
 │   │    └── fonts
 │   │    └── colors
 │   ├── screens
+│   │      └── MyScreen
+│   │      │     └── MyScreen.js
+│   │      │     └── MyScreenStyle.js
 │   │      └── index.js
 │   ├── RootNavigator.js
 │   └── App.js
@@ -32,5 +35,3 @@ MyProject
 ├── package.json
 ├── package-lock.json
 ```
-
-<strong>More details on: <a href="https://github.com/gabrielrangel95/react-native-folder-structure/wiki"> Wiki </a></strong>
