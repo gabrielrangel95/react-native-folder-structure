@@ -5,35 +5,52 @@ MyProject
 ├── android
 ├── ios
 ├── src
-│   └── config
-│   │      └── index.js
+│   ├── assets
+│   │    └── img
+│   │    └── fonts
 │   └── components
 │   │      └── MyComponent
-│   │      │     └── MyComponent.js
-│   │      │     └── MyComponentStyle.js
+│   │      │     └── index.tsx
+│   │      │     └── style.ts
+│   │      └── index.js
+│   └── intefaces
+│   │      └── myInterface.js
 │   │      └── index.js
 │   └── redux
 │   │    └── actions
-│   │    │  └── index.js
+│   │    │      └── myAction.ts
+│   │    │      └── index.ts
 │   │    └── reducers
-│   │    │      └── index.js
+│   │    │      └── myReducer.ts
+│   │    │      └── index.ts
+│   │    └── sagas
+│   │    │      └── mySaga.ts
+│   │    │      └── index.ts
 │   │    └── store
-│   │           └── index.js
-│   ├── resources
-│   │    └── img
-│   │    └── fonts
-│   │    └── colors
+│   │           └── index.ts
 │   ├── screens
 │   │      └── MyScreen
-│   │      │     └── MyScreen.js
-│   │      │     └── MyScreenStyle.js
-│   │      └── index.js
-│   ├── RootNavigator.js
-│   └── App.js
+│   │      │     └── index.tsx
+│   │      │     └── style.ts
+│   │      └── index.ts
+│   ├── styles
+│   │      └── index.ts
+│   │      └── colors.ts
+│   │      └── metrics.ts
+│   ├── utils
+│   │      └── MyUtilAction.ts
+│   │      └── index.ts
+│   ├── router
+│   │      └── NavigationService.ts
+│   │      └── index.ts
+│   └── App.tsx
+├── .editorconfig
 ├── app.json
-├── index.js
+├── tsconfig.json
+├── tslint.json
+├── index.ts
 ├── package.json
-├── package-lock.json
+├── yarn-lock.json
 ```
 
 <strong>
